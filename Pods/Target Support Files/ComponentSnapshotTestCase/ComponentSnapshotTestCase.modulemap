@@ -1,0 +1,6 @@
+framework module ComponentSnapshotTestCase {
+  umbrella header "ComponentSnapshotTestCase-umbrella.h"
+
+  export *
+  module * { export * }
+}

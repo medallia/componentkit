@@ -1,0 +1,29 @@
+{
+  "name": "ComponentSnapshotTestCase",
+  "version": "0.14",
+  "summary": "Support for Components with FBSnapshotTestCase",
+  "homepage": "https://componentkit.org",
+  "license": "BSD",
+  "source": {
+    "git": "https://github.com/facebook/ComponentKit.git",
+    "tag": "0.14"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": [
+    "**/*.h",
+    "**/*.m",
+    "**/*.mm"
+  ],
+  "dependencies": {
+    "FBSnapshotTestCase/Core": [
+      "~> 2.0.4"
+    ]
+  },
+  "frameworks": [
+    "UIKit",
+    "XCTest"
+  ]
+}
